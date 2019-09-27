@@ -10,7 +10,7 @@ class PindahHalaman : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pindah_halaman)
-//        var str1 : String  = "https://developer.android.com/" -- for string
+//        var str1 : String  = "https://developer.android.com/" -- for string c
         var str = "https://developer.android.com/"
         var phoneNumber = "089607029417"
         btn_web.setOnClickListener {
